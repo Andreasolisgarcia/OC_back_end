@@ -12,7 +12,8 @@ for (let i = 0; i < NB_AVIS; i++) {
 		pieceId: (piece_id++) % 5 + 1,
 		utilisateur: faker.name.findName(),
 		commentaire: faker.lorem.sentence(),
-		nbEtoiles: calculer_nb_etoiles(),
+		nbEto
+		iles: calculer_nb_etoiles(),
 	});
 }
 
